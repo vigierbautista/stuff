@@ -1,0 +1,18 @@
+<application>
+  <component name="libraryTable">
+    <library name="jquery" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="jQuery" />
+        <option name="frameworkVersion" value="1.10.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://C:/xampp/htdocs/prestashop/sistemas/frontend/assets/plugins/jquery-1.10.1.min.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.jquery.com_resources_api.xml.xml" />
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+  </component>
+</application>

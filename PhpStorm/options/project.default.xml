@@ -1,0 +1,19 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="InspectionProjectProfileManager">
+        <option name="PROJECT_PROFILE" />
+        <version value="1.0" />
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+      <component name="ProjectDictionaryState">
+        <dictionary name="programadorweb5" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+        <property name="last_opened_file_path" value="E:/BAUTISTA/ps/PHPStorm Dictionaries" />
+      </component>
+      <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="E:/BAUTISTA/ps/PHPStorm Dictionaries" Dictionaries="0" />
+    </defaultProject>
+  </component>
+</application>

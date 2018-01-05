@@ -1,0 +1,44 @@
+<templateSet group="user">
+  <template name="ppre" value="echo &quot;&lt;pre style='background-image: linear-gradient(to bottom, white, rgba(204,204,204,0.38))'&gt;&quot;.print_r($END$,true).&quot;&lt;/pre&gt;&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="peco" value="&lt;?php echo $END$;?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log($END$);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="firm" value="[montagne][Bautista Vigier][$DATE$]" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="//TODO $END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vpre" value="echo &quot;&lt;pre&gt;&quot;;&#10;var_dump($END$);&#10;echo &quot;&lt;/pre&gt;&quot;;" description="var_dump in pre tags" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="$" value="$('$END$')" description="JQuery short" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="clear" value="console.clear();" description="console.clear()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
